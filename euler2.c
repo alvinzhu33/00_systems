@@ -8,7 +8,7 @@ int main (){
   int counter=0;
   while(after < 4000000){
     if(after%2 == 0){
-      counter+=make;
+      counter+=after;
     }
     store = before;
     before = after;
